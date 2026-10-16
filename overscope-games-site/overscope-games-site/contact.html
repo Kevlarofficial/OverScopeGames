@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comms — Over Scope Games</title>
+<meta name="description" content="Get in touch with Over Scope Games.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="term-topbar"><span class="led"></span><span>system status: online</span></div>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand">over_scope_games<span class="cursor"></span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="studio.html">Studio</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="contact.html" aria-current="page">Comms</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="wrap">
+    <p class="eyebrow">Open channel</p>
+    <h1>Comms</h1>
+  </div>
+</header>
+
+<section>
+  <div class="wrap two-col">
+    <div>
+      <div class="section-head">
+        <span class="code">COM.01</span>
+        <h2>Reach the station</h2>
+      </div>
+      <p class="lede">Questions, feedback, press, or just want to follow development — all of it goes to the same place.</p>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Wire this form up to your email service or a form endpoint like Formspree before going live.');">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="cta-row" style="margin-top: 4px;">
+          <button type="submit" class="btn" style="font-family: var(--font-mono); background:none; cursor:pointer;">Send transmission</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="panel panel-rivets">
+      <h3>Direct lines</h3>
+      <ul class="spec-list">
+        <li><span>Email</span><span>hello@overscopegames.com</span></li>
+        <li><span>Discord</span><span>Set up a server link</span></li>
+        <li><span>Twitter / X</span><span>@OverScopeGames</span></li>
+        <li><span>Press kit</span><span>Coming soon</span></li>
+      </ul>
+      <p style="font-size:0.82rem; margin-top:14px;">Placeholders above — swap in your real handles and addresses before this goes live.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span class="foot-brand">OVER SCOPE GAMES — SOLO INDIE STUDIO</span>
+    <ul class="foot-links">
+      <li><a href="studio.html">Studio</a></li>
+      <li><a href="project.html">Project</a></li>
+      <li><a href="contact.html">Comms</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
